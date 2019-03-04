@@ -34,10 +34,10 @@ def get_head_image():
 
 def analyse_data():
 
-    appid = '10170264'
-    secret_id = 'AKIDrCQWnaxEMMDwKK4oNqnbSYihUWPuNdLz'
-    secret_key = 'ayDXhF9tUzOfQTOzQtOpDeGayEJI7nJh'
-    userid = '531845432'
+    appid = '*****'
+    secret_id = '*****'
+    secret_key = '******'
+    userid = '*****'
 
     end_point = TencentYoutuyun.conf.API_YOUTU_END_POINT  # 优图开放平台
     youtu = TencentYoutuyun.YouTu(appid, secret_id, secret_key, userid, end_point)
